@@ -1,0 +1,319 @@
+# Instincts generated from https://github.com/aloewright/warp-template-apple-multiplatform
+# Generated: 2026-04-30T22:36:32.155Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: warp-template-apple-multiplatform-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Commit Length
+
+## Action
+
+Keep commit messages concise (~16 characters)
+
+## Evidence
+
+- Average commit message length: 16 chars
+- Based on 2 commits
+
+---
+id: warp-template-apple-multiplatform-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Naming Files
+
+## Action
+
+Use PascalCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: PascalCase
+
+---
+id: warp-template-apple-multiplatform-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: warp-template-apple-multiplatform-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: warp-template-apple-multiplatform-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: warp-template-apple-multiplatform-test-naming
+trigger: "when creating a test file"
+confidence: 0.85
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Test Naming
+
+## Action
+
+Name test files using the pattern: *.test.ts
+
+## Evidence
+
+- File pattern: *.test.ts
+- Consistent across test files
+
+---
+id: warp-template-apple-multiplatform-instinct-file-naming
+trigger: "When creating a new Swift source file"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct File Naming
+
+## Action
+
+Name the file using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.files: PascalCase
+
+---
+id: warp-template-apple-multiplatform-instinct-function-naming
+trigger: "When defining a new function in Swift"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Function Naming
+
+## Action
+
+Use camelCase for the function name
+
+## Evidence
+
+- Pattern in namingConventions.functions: camelCase
+
+---
+id: warp-template-apple-multiplatform-instinct-class-naming
+trigger: "When defining a new class in Swift"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Class Naming
+
+## Action
+
+Use PascalCase for the class name
+
+## Evidence
+
+- Pattern in namingConventions.classes: PascalCase
+
+---
+id: warp-template-apple-multiplatform-instinct-constant-naming
+trigger: "When declaring a constant in Swift"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Constant Naming
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for the constant name
+
+## Evidence
+
+- Pattern in namingConventions.constants: SCREAMING_SNAKE_CASE
+
+---
+id: warp-template-apple-multiplatform-instinct-import-style
+trigger: "When importing modules in Swift files"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in importStyle: relative
+
+---
+id: warp-template-apple-multiplatform-instinct-export-style
+trigger: "When exporting symbols from a Swift file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle: named
+
+---
+id: warp-template-apple-multiplatform-instinct-test-file-location
+trigger: "When adding new test files"
+confidence: 0.9
+domain: testing
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Test File Location
+
+## Action
+
+Place test files in the 'Tests' folder, separate from source files
+
+## Evidence
+
+- Pattern in folderStructure.testLocation: separate
+- CommonFolders includes 'Tests'
+
+---
+id: warp-template-apple-multiplatform-instinct-test-type
+trigger: "When writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Test Type
+
+## Action
+
+Write unit tests
+
+## Evidence
+
+- Pattern in testTypes: unit
+
+---
+id: warp-template-apple-multiplatform-instinct-test-file-pattern
+trigger: "When naming test files"
+confidence: 0.7
+domain: testing
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Test File Pattern
+
+## Action
+
+Use the '*.test.ts' pattern for test file names
+
+## Evidence
+
+- Pattern in filePattern: *.test.ts
+
+---
+id: warp-template-apple-multiplatform-instinct-commit-message-format
+trigger: "When making a git commit"
+confidence: 0.8
+domain: git
+source: repo-analysis
+source_repo: aloewright/warp-template-apple-multiplatform
+---
+
+# Warp Template Apple Multiplatform Instinct Commit Message Format
+
+## Action
+
+Use a short, freeform commit message without a prefix
+
+## Evidence
+
+- Seen in commit: 'Initial scaffold'
+- Pattern: commits.prefixes: []
+- Pattern: commits.averageLength: 16
+
