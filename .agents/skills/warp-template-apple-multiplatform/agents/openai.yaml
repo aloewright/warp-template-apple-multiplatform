@@ -1,0 +1,6 @@
+interface:
+  display_name: "Warp Template Apple Multiplatform"
+  short_description: "Repo-specific patterns and workflows for warp-template-apple-multiplatform"
+  default_prompt: "Use the warp-template-apple-multiplatform repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
