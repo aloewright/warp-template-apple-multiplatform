@@ -1,0 +1,1097 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B212B8A83187BE6AF232657 /* WarpTemplateiPadOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6A61592DE8BB683BB920C /* WarpTemplateiPadOSTests.swift */; };
+		1E95A2C86A76513419D91D92 /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = E7165B5D544606A66C7BFAF8 /* WarpTemplateCore */; };
+		217AAAED87C28A20D4B4D247 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93CB8213FAF1CD69E116C0 /* AppMain.swift */; };
+		30B1A1F0BAEF3F52C7BDEF89 /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = A5DB69BFE8CC395090AE616A /* WarpTemplateCore */; };
+		488B4D71CD4F17CE99C5FF3C /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB62FCDCAB79B6A91371D9 /* AppMain.swift */; };
+		5887E65E1929C67EFA0BDF42 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B737644231E5A07790DC3BC9 /* AppMain.swift */; };
+		6B2572CA8BD22A4D7EDC21B8 /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0087A48E1ADC523A1B8074CF /* WarpTemplateCore */; };
+		7ABA5C3B0788F9B979BFA8DF /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = D250813A63311DA27ABCAA8B /* WarpTemplateCore */; };
+		8E835EF9059818349511797B /* WarpTemplatewatchOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84892F5D72999BBEF717C71E /* WarpTemplatewatchOSTests.swift */; };
+		8F31E907F7921B3837D2F6D8 /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = EE44319191F9D0FEC691FFAE /* WarpTemplateCore */; };
+		918593391597DACB2B36A23D /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = 83D39D7EFDD631CF93E31CED /* WarpTemplateCore */; };
+		B2F37795BE0B104EEE25FED7 /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE8E93C06D653A70466E920C /* WarpTemplateCore */; };
+		D22AA985AFD42ED383CCD4BE /* WarpTemplateiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCE1D1E38CE9B17CC90C9E /* WarpTemplateiOSTests.swift */; };
+		DAA1BB244D126F2201BD12AE /* WarpTemplatemacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DE5A3DFE80FD63B7636D19 /* WarpTemplatemacOSTests.swift */; };
+		FCC77A191DC320BCB8A88BAB /* WarpTemplateCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5A53248791D466D52EBA13D9 /* WarpTemplateCore */; };
+		FF0D48DEE312FE742147B2A0 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647EF2A79D2FF0F44D5356E /* AppMain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B96756499F102316E08668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29EA34CF38BCE05C81741A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8801F478A4F4CC88307413F8;
+			remoteInfo = WarpTemplateiOS;
+		};
+		3A9BDA8B6D858B5ED36336B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29EA34CF38BCE05C81741A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2031BD10848C8CE104E42072;
+			remoteInfo = WarpTemplateiPadOS;
+		};
+		79EC6C2F0C29CAE2DAA3D875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29EA34CF38BCE05C81741A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E272889C52DD0B5C7A382A4;
+			remoteInfo = WarpTemplatemacOS;
+		};
+		9C0204FF9B38C01F431C1A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29EA34CF38BCE05C81741A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663FA2BD7318B58471F9B3C6;
+			remoteInfo = WarpTemplatewatchOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBCE1D1E38CE9B17CC90C9E /* WarpTemplateiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarpTemplateiOSTests.swift; sourceTree = "<group>"; };
+		107104B2464881BE6F05D389 /* WarpTemplatemacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarpTemplatemacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29199A2C385886D1751D8A44 /* WarpTemplatewatchOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarpTemplatewatchOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E93CB8213FAF1CD69E116C0 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		4CC1EAD0DAA3F543813DCB2D /* WarpTemplateCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WarpTemplateCore; path = Packages/WarpTemplateCore; sourceTree = SOURCE_ROOT; };
+		56B42D09D0C256BA8E7E4475 /* WarpTemplatemacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarpTemplatemacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAB526921CC16071927E011 /* WarpTemplateiPadOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WarpTemplateiPadOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84892F5D72999BBEF717C71E /* WarpTemplatewatchOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarpTemplatewatchOSTests.swift; sourceTree = "<group>"; };
+		8647EF2A79D2FF0F44D5356E /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		99AE63FAAE97A65B7326233C /* WarpTemplatewatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarpTemplatewatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC9F3EFB9F77549111D15E2 /* WarpTemplateiPadOSTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WarpTemplateiPadOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA834507E54D07A89FA1605F /* WarpTemplateiOSTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WarpTemplateiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B737644231E5A07790DC3BC9 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		B9DE5A3DFE80FD63B7636D19 /* WarpTemplatemacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarpTemplatemacOSTests.swift; sourceTree = "<group>"; };
+		C1CB62FCDCAB79B6A91371D9 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		D7B6D5B67B80E5A366956ECD /* FoundationModelsBridge */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FoundationModelsBridge; path = Packages/FoundationModelsBridge; sourceTree = SOURCE_ROOT; };
+		E0A6A61592DE8BB683BB920C /* WarpTemplateiPadOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarpTemplateiPadOSTests.swift; sourceTree = "<group>"; };
+		E17394A4CDA979860AD8F9BF /* WarpTemplateiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WarpTemplateiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAD5C68DD95B62DB93CB83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC77A191DC320BCB8A88BAB /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1D52DAC636F9EFA1B10C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2572CA8BD22A4D7EDC21B8 /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D5F55843B8C65AF07D0CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B1A1F0BAEF3F52C7BDEF89 /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E9CC166F6ECADE53F3FD20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F31E907F7921B3837D2F6D8 /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7C7446098FF30D161CC1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E95A2C86A76513419D91D92 /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7517855CFF9FF0E83287912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918593391597DACB2B36A23D /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D07A6F521F5D1140F409CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABA5C3B0788F9B979BFA8DF /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1076B140AD62A44949BE858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F37795BE0B104EEE25FED7 /* WarpTemplateCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D1615ADC2BD32E7EB9580A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8647EF2A79D2FF0F44D5356E /* AppMain.swift */,
+			);
+			name = macOS;
+			path = Sources/macOS;
+			sourceTree = "<group>";
+		};
+		2E4C099ACF8EE8CCDCB5292A /* iPadOS */ = {
+			isa = PBXGroup;
+			children = (
+				2E93CB8213FAF1CD69E116C0 /* AppMain.swift */,
+			);
+			name = iPadOS;
+			path = Sources/iPadOS;
+			sourceTree = "<group>";
+		};
+		3A8CDC4ECA7CF4A3A0BFDEF5 = {
+			isa = PBXGroup;
+			children = (
+				D7D7FC69BCB06B28116964F2 /* iOS */,
+				3F80AC030A3B2850EFDD224E /* iOSTests */,
+				2E4C099ACF8EE8CCDCB5292A /* iPadOS */,
+				6123F82158D4C52542755029 /* iPadOSTests */,
+				13D1615ADC2BD32E7EB9580A /* macOS */,
+				F7D8A6EF77A42EFC14E8279C /* macOSTests */,
+				97DB3483966D54A751BDE112 /* Packages */,
+				5462AC1A3254A0C3FDBBF0C3 /* watchOS */,
+				D8E59C6FBB735D68F9FBB00F /* watchOSTests */,
+				C3F9C8BD34ACAA045EC00728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F80AC030A3B2850EFDD224E /* iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CBCE1D1E38CE9B17CC90C9E /* WarpTemplateiOSTests.swift */,
+			);
+			name = iOSTests;
+			path = Tests/iOSTests;
+			sourceTree = "<group>";
+		};
+		5462AC1A3254A0C3FDBBF0C3 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB62FCDCAB79B6A91371D9 /* AppMain.swift */,
+			);
+			name = watchOS;
+			path = Sources/watchOS;
+			sourceTree = "<group>";
+		};
+		6123F82158D4C52542755029 /* iPadOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A6A61592DE8BB683BB920C /* WarpTemplateiPadOSTests.swift */,
+			);
+			name = iPadOSTests;
+			path = Tests/iPadOSTests;
+			sourceTree = "<group>";
+		};
+		97DB3483966D54A751BDE112 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D7B6D5B67B80E5A366956ECD /* FoundationModelsBridge */,
+				4CC1EAD0DAA3F543813DCB2D /* WarpTemplateCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		C3F9C8BD34ACAA045EC00728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17394A4CDA979860AD8F9BF /* WarpTemplateiOS.app */,
+				AA834507E54D07A89FA1605F /* WarpTemplateiOSTests.xctest */,
+				7CAB526921CC16071927E011 /* WarpTemplateiPadOS.app */,
+				9EC9F3EFB9F77549111D15E2 /* WarpTemplateiPadOSTests.xctest */,
+				56B42D09D0C256BA8E7E4475 /* WarpTemplatemacOS.app */,
+				107104B2464881BE6F05D389 /* WarpTemplatemacOSTests.xctest */,
+				99AE63FAAE97A65B7326233C /* WarpTemplatewatchOS.app */,
+				29199A2C385886D1751D8A44 /* WarpTemplatewatchOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D7FC69BCB06B28116964F2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B737644231E5A07790DC3BC9 /* AppMain.swift */,
+			);
+			name = iOS;
+			path = Sources/iOS;
+			sourceTree = "<group>";
+		};
+		D8E59C6FBB735D68F9FBB00F /* watchOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				84892F5D72999BBEF717C71E /* WarpTemplatewatchOSTests.swift */,
+			);
+			name = watchOSTests;
+			path = Tests/watchOSTests;
+			sourceTree = "<group>";
+		};
+		F7D8A6EF77A42EFC14E8279C /* macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9DE5A3DFE80FD63B7636D19 /* WarpTemplatemacOSTests.swift */,
+			);
+			name = macOSTests;
+			path = Tests/macOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC5AD7C405ACCFEFEBC6220 /* WarpTemplateiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8114E1CA968959722668872A /* Build configuration list for PBXNativeTarget "WarpTemplateiOSTests" */;
+			buildPhases = (
+				D00C54A1602779E56D17DF23 /* Sources */,
+				F1076B140AD62A44949BE858 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185E7D4C37252FCEF6D2385D /* PBXTargetDependency */,
+			);
+			name = WarpTemplateiOSTests;
+			packageProductDependencies = (
+				AE8E93C06D653A70466E920C /* WarpTemplateCore */,
+			);
+			productName = WarpTemplateiOSTests;
+			productReference = AA834507E54D07A89FA1605F /* WarpTemplateiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2031BD10848C8CE104E42072 /* WarpTemplateiPadOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775060B45CAEEAFABC7D0F16 /* Build configuration list for PBXNativeTarget "WarpTemplateiPadOS" */;
+			buildPhases = (
+				7D80498B0256AB35A1E924C2 /* Sources */,
+				BD7C7446098FF30D161CC1EB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarpTemplateiPadOS;
+			packageProductDependencies = (
+				E7165B5D544606A66C7BFAF8 /* WarpTemplateCore */,
+			);
+			productName = WarpTemplateiPadOS;
+			productReference = 7CAB526921CC16071927E011 /* WarpTemplateiPadOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		304A69D91B4DF14FE4105F21 /* WarpTemplatewatchOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3A84AABB56D9CF86B63705 /* Build configuration list for PBXNativeTarget "WarpTemplatewatchOSTests" */;
+			buildPhases = (
+				15DCB0D99C1A9760180473FA /* Sources */,
+				F0D07A6F521F5D1140F409CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31221FC76DAE76F43A05B33E /* PBXTargetDependency */,
+			);
+			name = WarpTemplatewatchOSTests;
+			packageProductDependencies = (
+				D250813A63311DA27ABCAA8B /* WarpTemplateCore */,
+			);
+			productName = WarpTemplatewatchOSTests;
+			productReference = 29199A2C385886D1751D8A44 /* WarpTemplatewatchOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E272889C52DD0B5C7A382A4 /* WarpTemplatemacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF1220EF6601830533F75CA /* Build configuration list for PBXNativeTarget "WarpTemplatemacOS" */;
+			buildPhases = (
+				00BD57B4C43BD49FBD9C32F1 /* Sources */,
+				9E9CC166F6ECADE53F3FD20C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarpTemplatemacOS;
+			packageProductDependencies = (
+				EE44319191F9D0FEC691FFAE /* WarpTemplateCore */,
+			);
+			productName = WarpTemplatemacOS;
+			productReference = 56B42D09D0C256BA8E7E4475 /* WarpTemplatemacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		663FA2BD7318B58471F9B3C6 /* WarpTemplatewatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72A21A2491A3A00D100B9AF /* Build configuration list for PBXNativeTarget "WarpTemplatewatchOS" */;
+			buildPhases = (
+				752092058BF94149D8F3A863 /* Sources */,
+				72D5F55843B8C65AF07D0CE9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarpTemplatewatchOS;
+			packageProductDependencies = (
+				A5DB69BFE8CC395090AE616A /* WarpTemplateCore */,
+			);
+			productName = WarpTemplatewatchOS;
+			productReference = 99AE63FAAE97A65B7326233C /* WarpTemplatewatchOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77D4996188F10ACA58DE97EA /* WarpTemplateiPadOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11BC6A11B4B818B69469CE6A /* Build configuration list for PBXNativeTarget "WarpTemplateiPadOSTests" */;
+			buildPhases = (
+				326D85B5FBA209151601D68C /* Sources */,
+				66F1D52DAC636F9EFA1B10C6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A550AAFA67446856BD81C6C5 /* PBXTargetDependency */,
+			);
+			name = WarpTemplateiPadOSTests;
+			packageProductDependencies = (
+				0087A48E1ADC523A1B8074CF /* WarpTemplateCore */,
+			);
+			productName = WarpTemplateiPadOSTests;
+			productReference = 9EC9F3EFB9F77549111D15E2 /* WarpTemplateiPadOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8801F478A4F4CC88307413F8 /* WarpTemplateiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120EAEA32E04689915AE62B5 /* Build configuration list for PBXNativeTarget "WarpTemplateiOS" */;
+			buildPhases = (
+				2E04848FB3588E573D012C19 /* Sources */,
+				E7517855CFF9FF0E83287912 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarpTemplateiOS;
+			packageProductDependencies = (
+				83D39D7EFDD631CF93E31CED /* WarpTemplateCore */,
+			);
+			productName = WarpTemplateiOS;
+			productReference = E17394A4CDA979860AD8F9BF /* WarpTemplateiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		962BD13614682A4AAB662B9F /* WarpTemplatemacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E923F1AF79C178F3706D05A7 /* Build configuration list for PBXNativeTarget "WarpTemplatemacOSTests" */;
+			buildPhases = (
+				2B5E96476C1144349941B3F7 /* Sources */,
+				3CAD5C68DD95B62DB93CB83F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D42FB8F0E49889B8F74E49 /* PBXTargetDependency */,
+			);
+			name = WarpTemplatemacOSTests;
+			packageProductDependencies = (
+				5A53248791D466D52EBA13D9 /* WarpTemplateCore */,
+			);
+			productName = WarpTemplatemacOSTests;
+			productReference = 107104B2464881BE6F05D389 /* WarpTemplatemacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29EA34CF38BCE05C81741A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1AC5AD7C405ACCFEFEBC6220 = {
+						ProvisioningStyle = Automatic;
+					};
+					2031BD10848C8CE104E42072 = {
+						ProvisioningStyle = Automatic;
+					};
+					304A69D91B4DF14FE4105F21 = {
+						ProvisioningStyle = Automatic;
+					};
+					4E272889C52DD0B5C7A382A4 = {
+						ProvisioningStyle = Automatic;
+					};
+					663FA2BD7318B58471F9B3C6 = {
+						ProvisioningStyle = Automatic;
+					};
+					77D4996188F10ACA58DE97EA = {
+						ProvisioningStyle = Automatic;
+					};
+					8801F478A4F4CC88307413F8 = {
+						ProvisioningStyle = Automatic;
+					};
+					962BD13614682A4AAB662B9F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26E9E0825637FB55234EDBBB /* Build configuration list for PBXProject "WarpTemplateAppleMultiplatform" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3A8CDC4ECA7CF4A3A0BFDEF5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				883804877C5B736F14AC8F44 /* XCLocalSwiftPackageReference "Packages/FoundationModelsBridge" */,
+				9985DCDC0A6E01404E857DF0 /* XCLocalSwiftPackageReference "Packages/WarpTemplateCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3F9C8BD34ACAA045EC00728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8801F478A4F4CC88307413F8 /* WarpTemplateiOS */,
+				1AC5AD7C405ACCFEFEBC6220 /* WarpTemplateiOSTests */,
+				2031BD10848C8CE104E42072 /* WarpTemplateiPadOS */,
+				77D4996188F10ACA58DE97EA /* WarpTemplateiPadOSTests */,
+				4E272889C52DD0B5C7A382A4 /* WarpTemplatemacOS */,
+				962BD13614682A4AAB662B9F /* WarpTemplatemacOSTests */,
+				663FA2BD7318B58471F9B3C6 /* WarpTemplatewatchOS */,
+				304A69D91B4DF14FE4105F21 /* WarpTemplatewatchOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00BD57B4C43BD49FBD9C32F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0D48DEE312FE742147B2A0 /* AppMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DCB0D99C1A9760180473FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E835EF9059818349511797B /* WarpTemplatewatchOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5E96476C1144349941B3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA1BB244D126F2201BD12AE /* WarpTemplatemacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E04848FB3588E573D012C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5887E65E1929C67EFA0BDF42 /* AppMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326D85B5FBA209151601D68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B212B8A83187BE6AF232657 /* WarpTemplateiPadOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752092058BF94149D8F3A863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488B4D71CD4F17CE99C5FF3C /* AppMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D80498B0256AB35A1E924C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217AAAED87C28A20D4B4D247 /* AppMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00C54A1602779E56D17DF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22AA985AFD42ED383CCD4BE /* WarpTemplateiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185E7D4C37252FCEF6D2385D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8801F478A4F4CC88307413F8 /* WarpTemplateiOS */;
+			targetProxy = 17B96756499F102316E08668 /* PBXContainerItemProxy */;
+		};
+		31221FC76DAE76F43A05B33E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663FA2BD7318B58471F9B3C6 /* WarpTemplatewatchOS */;
+			targetProxy = 9C0204FF9B38C01F431C1A17 /* PBXContainerItemProxy */;
+		};
+		69D42FB8F0E49889B8F74E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E272889C52DD0B5C7A382A4 /* WarpTemplatemacOS */;
+			targetProxy = 79EC6C2F0C29CAE2DAA3D875 /* PBXContainerItemProxy */;
+		};
+		A550AAFA67446856BD81C6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2031BD10848C8CE104E42072 /* WarpTemplateiPadOS */;
+			targetProxy = 3A9BDA8B6D858B5ED36336B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		183527DB6EE2D6515A261611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ios";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		238E8BD346E04293EDC63245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.macos-tests";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplatemacOS.app/Contents/MacOS/WarpTemplatemacOS";
+			};
+			name = Release;
+		};
+		5FE87DE34B692C289386438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.watchos-tests";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplatewatchOS.app/WarpTemplatewatchOS";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		6F3CBC9F608C231A20F46B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ipados";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		78431213D97E1A961A84735F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ipados-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplateiPadOS.app/WarpTemplateiPadOS";
+			};
+			name = Debug;
+		};
+		92B02D81F11A2795D7DC1BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		92C2E92E775CC1B46D326056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ipados-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplateiPadOS.app/WarpTemplateiPadOS";
+			};
+			name = Release;
+		};
+		930D8DFA1F5962FBC4088342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		9BAB21541259E88E982EB156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ios";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A598DAB43991838229A9ECB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ios-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplateiOS.app/WarpTemplateiOS";
+			};
+			name = Debug;
+		};
+		ACE1F0978D30A397B0E5AEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ipados";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		AECF29188546053BD8BCCFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.macos";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF7301E061C329C0D247E61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.macos";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2A2575ABAA826141ACFE4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.aloewright.warp-template-apple-multiplatform.ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ios.watchos";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		D02CB39E1D3233C59F146075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.macos-tests";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplatemacOS.app/Contents/MacOS/WarpTemplatemacOS";
+			};
+			name = Debug;
+		};
+		D52416230E93CCBC170EC30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.aloewright.warp-template-apple-multiplatform.ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ios.watchos";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E22B2A9D17AAE8E884CF1F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.watchos-tests";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplatewatchOS.app/WarpTemplatewatchOS";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		F63C67C7F02AE16A95B03AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aloewright.warp-template-apple-multiplatform.ios-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarpTemplateiOS.app/WarpTemplateiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11BC6A11B4B818B69469CE6A /* Build configuration list for PBXNativeTarget "WarpTemplateiPadOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78431213D97E1A961A84735F /* Debug */,
+				92C2E92E775CC1B46D326056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		120EAEA32E04689915AE62B5 /* Build configuration list for PBXNativeTarget "WarpTemplateiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAB21541259E88E982EB156 /* Debug */,
+				183527DB6EE2D6515A261611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26E9E0825637FB55234EDBBB /* Build configuration list for PBXProject "WarpTemplateAppleMultiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B02D81F11A2795D7DC1BC9 /* Debug */,
+				930D8DFA1F5962FBC4088342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C3A84AABB56D9CF86B63705 /* Build configuration list for PBXNativeTarget "WarpTemplatewatchOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22B2A9D17AAE8E884CF1F87 /* Debug */,
+				5FE87DE34B692C289386438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		775060B45CAEEAFABC7D0F16 /* Build configuration list for PBXNativeTarget "WarpTemplateiPadOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3CBC9F608C231A20F46B60 /* Debug */,
+				ACE1F0978D30A397B0E5AEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8114E1CA968959722668872A /* Build configuration list for PBXNativeTarget "WarpTemplateiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A598DAB43991838229A9ECB9 /* Debug */,
+				F63C67C7F02AE16A95B03AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D72A21A2491A3A00D100B9AF /* Build configuration list for PBXNativeTarget "WarpTemplatewatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52416230E93CCBC170EC30B /* Debug */,
+				B2A2575ABAA826141ACFE4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E923F1AF79C178F3706D05A7 /* Build configuration list for PBXNativeTarget "WarpTemplatemacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02CB39E1D3233C59F146075 /* Debug */,
+				238E8BD346E04293EDC63245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FEF1220EF6601830533F75CA /* Build configuration list for PBXNativeTarget "WarpTemplatemacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECF29188546053BD8BCCFD6 /* Debug */,
+				AF7301E061C329C0D247E61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		883804877C5B736F14AC8F44 /* XCLocalSwiftPackageReference "Packages/FoundationModelsBridge" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/FoundationModelsBridge;
+		};
+		9985DCDC0A6E01404E857DF0 /* XCLocalSwiftPackageReference "Packages/WarpTemplateCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/WarpTemplateCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0087A48E1ADC523A1B8074CF /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+		5A53248791D466D52EBA13D9 /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+		83D39D7EFDD631CF93E31CED /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+		A5DB69BFE8CC395090AE616A /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+		AE8E93C06D653A70466E920C /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+		D250813A63311DA27ABCAA8B /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+		E7165B5D544606A66C7BFAF8 /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+		EE44319191F9D0FEC691FFAE /* WarpTemplateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WarpTemplateCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 29EA34CF38BCE05C81741A83 /* Project object */;
+}
