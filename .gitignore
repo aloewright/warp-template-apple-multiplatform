@@ -1,0 +1,6 @@
+.derived-data/
+.source-packages/
+.home/
+WarpTemplateAppleMultiplatform.xcodeproj/xcuserdata/
+WarpTemplateAppleMultiplatform.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcresult
